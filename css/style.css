@@ -95,7 +95,8 @@ li,
 dl,
 dt,
 dd,
-div{
+div,
+span{
     margin: 0;
     padding: 0;
     outline: 0;
