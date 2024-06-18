@@ -96,7 +96,7 @@ dl,
 dt,
 dd,
 div,
-span{
+span {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -535,7 +535,6 @@ body {
     margin-top: -96px;
     padding: 96px 0;
     min-height: 700px;
-    max-height: 100vh;
     background: center center url('../images/bg-img02.jpg') no-repeat;
     background-size: cover;
     font-size: 18px;
@@ -753,7 +752,7 @@ body {
     .section-hero__entry {
         margin: 0 auto;
         padding-right: 0;
-        max-width: 542px;
+        min-width: 542px;
     }
     /* end section hero */
     /* section-text */
@@ -960,7 +959,7 @@ body {
     }
     .section-hero__entry {
         margin: 0 auto;
-        width: 335px;
+        min-width: 335px;
     }
     .section-hero__title {
         margin-bottom: 23px;
